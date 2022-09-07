@@ -1,4 +1,4 @@
-# developer-assessment
+# Developer Assessment
 
 This is the result of the provided mock up implementation. In CSS, the methodology [BEM](https://en.bem.info/methodology/css/) is used for organization.
 

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Job Assessment 
+    | Powered by Jebbit"
+    />
+    <link rel="icon" type="image/png" href="./app/images/favicon.png" />
+    <!-- Google Fonts Import -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Stylesheet Imports -->
+    <link rel="stylesheet" href="./app/css/reset.css" />
+    <link rel="stylesheet" href="./app/css/style.css" />
+    <title>Job Assessment</title>
+  </head>
+  <body>
+    <header class="header container">
+      <div class="header__prev prev">
+        <a
+          class="prev__link"
+          href="#"
+          aria-label="Go back to the previous page"
+        >
+          <img
+            src="./app/images/prev__arrow.svg"
+            alt="previous arrow (ilustrative)"
+            height="13"
+            width="13"
+            class="prev__arrow"
+          />
+          <span class="prev__text">Back</span>
+        </a>
+      </div>
+      <div class="header__logo logo">
+        <a
+          class="logo__link"
+          href="#"
+          aria-label="Go to the Walgreens homepage"
+        >
+          <img
+            src="./app/images/logo.png"
+            alt="Walgreens logo"
+            height="53"
+            width="80"
+            class="logo__image"
+          />
+        </a>
+      </div>
+      <div class="header__progress progress__status">1 of 4</div>
+    </header>
+    <main class="main container">
+      <section class="quiz">
+        <div class="quiz__header-wrapper">
+          <div class="quiz__progress progress__status">1 of 4</div>
+          <h1 class="quiz__header">
+            <span class="quiz__header--secondary"
+              >First, let's get to know a bit about you.</span
+            >
+            <strong class="quiz__header--primary"
+              >What's your favorite part of summer?</strong
+            >
+          </h1>
+        </div>
+        <div class="quiz__grid--wrapper grid">
+          <button type="button" class="box grid__item item">
+            <img
+              class="item__image"
+              src="./app/images/block-image__01.png"
+              alt=""
+            />
+            <p class="item__description">Flowers and farmers' markets</p>
+          </button>
+          <button type="button" class="box grid__item">
+            <img
+              class="item__image"
+              src="./app/images/block-image__02.png"
+              alt=""
+            />
+            <p class="item__description">Exploring the great outdoors</p>
+          </button>
+          <button type="button" class="box grid__item">
+            <img
+              class="item__image"
+              src="./app/images/block-image__03.png"
+              alt=""
+            />
+            <p class="item__description">Sandy, sunny beach days</p>
+          </button>
+          <button type="button" class="box grid__item">
+            <img
+              class="item__image"
+              src="./app/images/block-image__04.png"
+              alt=""
+            />
+            <p class="item__description">Picnics, BBQs, and s'mores!</p>
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer class="footer__wave"></footer>
+  </body>
+</html>
